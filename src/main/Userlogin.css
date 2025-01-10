@@ -1,0 +1,73 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image and styling */
+.bg-image {
+    background-image: url('meditation-background.jpg'); /* Replace with your meditation background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styles */
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+.card h1 {
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.btn-primary {
+    background-color: #89CFF0;
+    border-color: #89CFF0;
+}
+
+.btn-primary:hover {
+    background-color: #5ca9d1;
+    border-color: #5ca9d1;
+}
+
+/* Footer text and links */
+.text-primary {
+    color: #89CFF0;
+}
+
+.text-primary:hover {
+    color: #5ca9d1;
+    text-decoration: underline;
+}
+
+/* Input fields styling */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Spacing for footer */
+.mt-3 {
+    margin-top: 1rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}
